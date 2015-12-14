@@ -27,7 +27,7 @@ set(INF_TARGETS
     pyReducedInference.cxx
     #pyDualDecompositionBundle.cxx
     #pyDualDecompositionMerit.cxx
-    #pyGibbs.cxx
+    pyGibbs.cxx
     pyBruteforce.cxx
     pyLazyflipper.cxx
     pyAeFusion.cxx

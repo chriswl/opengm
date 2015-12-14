@@ -34,6 +34,6 @@ void export_gibbs(){
 }
 
 template void export_gibbs<opengm::python::GmAdder,opengm::Minimizer>();
-//template void export_gibbs<GmAdder,opengm::Maximizer>();
-//template void export_gibbs<GmMultiplier,opengm::Minimizer>();
+/* template void export_gibbs<opengm::python::GmAdder,opengm::Maximizer>(); */
+/* template void export_gibbs<opengm::python::GmMultiplier,opengm::Minimizer>(); */
 template void export_gibbs<opengm::python::GmMultiplier,opengm::Maximizer>();
